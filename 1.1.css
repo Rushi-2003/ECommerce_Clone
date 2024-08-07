@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  width: 960px;
+  margin-top: 30px;
+  margin-left: 200px;
+  align-self: center;
+  height: 500px;
+}
+.container-PART-1 {
+  padding: 50px;
+  width: 500%;
+  align-self: center;
+  column-width: 50%;
+}
+
+.head-container-part-1 {
+  margin-bottom: 36px;
+  font-size: 44px;
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+.para-part-1 {
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.button-part-1 {
+  font-size: 18px;
+  padding: 16px 32px;
+  background-color: #099268;
+  border-radius: 30px;
+}
+
+.container-PART-2 {
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.head-part-3 {
+  margin-left: 40px;
+  margin-right: 100x;
+  padding: 2%;
+}
+
+.flex-part-3 {
+  display: flex;
+  column-gap: 60ap;
+  justify-items: 35px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 40px;
+  column-width: 50px;
+}
+
+.p1 {
+  stroke: #087f5b;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 24px;
+}
+
+.para1-part-3 {
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
+.para2-part-3 {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.para3-part-3 {
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
+.para4-part-3 {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.para6-part-3 {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.testimonial-section {
+  background-color: #087f5b;
+  padding: 24px;
+  color: #fff;
+  border-radius: 12px;
+}
+
+.grid-3-cols {
+  display: flex;
+}
+
+.testimonial-box {
+  grid-column: 2 / -1;
+  align-self: center;
+}
+
+.testimonial-box h2 {
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+.testimonial-text {
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #e6fcf5;
+}
+.testimonial-author {
+  color: #c3fae8;
+}
+/* CHAIRS */
+.chair {
+  border-radius: 12px;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+}
+
+.chair img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.chair-box {
+  padding: 32px;
+}
+
+h3 {
+  margin-bottom: 24px;
+  font-size: 20px;
+}
+
+.chair-details {
+  list-style: none;
+  margin-bottom: 48px;
+}
+
+.chair-details li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.chair-details li:last-child {
+  margin-bottom: 0;
+}
+
+.chair-icon {
+  stroke: #087f5b;
+  height: 24px;
+  width: 24px;
+}
+
+.chair-price {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  align-items: center;
+}
+
+footer {
+  margin-bottom: 48px;
+  font-size: 14px;
+  color: #495057;
+}
